@@ -1,6 +1,6 @@
 ---
-name: AEVO Trading Skill
-description: AI trading assistant for AEVO, a decentralized derivatives exchange. Connects any MCP-compatible client to AEVO's 45 tools for market data, portfolio management, order execution, risk analysis, and options strategies.
+name: aevo-trading-skill
+description: AI trading assistant for AEVO, a decentralized derivatives exchange. Connects any MCP-compatible client to AEVO's 45 tools for market data, portfolio management, order execution, risk analysis, and options strategies. Use this skill whenever the user mentions AEVO, asks about crypto derivatives or perpetual futures trading, wants to check positions or portfolio risk, asks about funding rates or basis, wants to place or cancel orders on a decentralized exchange, discusses options strategies on crypto assets, or asks about volatility or market regime. Also trigger when the user has AEVO MCP tools connected, even if they don't mention AEVO by name.
 ---
 
 # AEVO Trading Skill
@@ -287,8 +287,16 @@ Read-only MCP resources for fast context snapshots:
 
 ## References
 
-For detailed documentation beyond this skill definition, see the `references/` directory:
-- Tool parameter schemas, response formats, and error codes
-- Options strategy construction details
-- Risk guardrail configuration (position limits, session loss limits, rate limits, circuit breakers)
-- Environment variable reference
+For detailed documentation beyond this skill definition, consult these files as needed:
+
+**Reference docs** (`references/`):
+- `references/tools.md` -- Read when you need exact parameter names, types, defaults, or response formats for a specific tool call
+- `references/options.md` -- Read when constructing any options strategy (straddle, strangle, spread, condor, butterfly)
+- `references/risk-rules.md` -- Read when evaluating risk thresholds, position limits, session loss limits, or circuit breaker rules
+- `references/workflows.md` -- Read for step-by-step recipes when you're unsure of the correct tool sequence for a task
+- `references/instruments.md` -- Read when parsing or constructing instrument names, especially options naming
+
+**Conversation examples** (`examples/`):
+- `examples/analyze.md` -- Full market analysis conversation showing parallel data pulls and synthesis
+- `examples/trade.md` -- Bracket trade execution with mandatory confirmation flow and stop-loss adjustment
+- `examples/hedge.md` -- Portfolio hedging workflow from risk identification through collar execution

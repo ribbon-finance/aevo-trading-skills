@@ -1,6 +1,6 @@
 # AEVO MCP Tools Reference
 
-Complete reference for all 43 AEVO MCP tools. Tools are grouped by category with authentication requirements, parameters, and usage examples.
+Complete reference for all 45 AEVO MCP tools. Tools are grouped by category with authentication requirements, parameters, and usage examples.
 
 **Parameter defaults:** `""` means empty string (optional/omitted), numeric defaults shown as values, boolean defaults shown as `true`/`false`.
 
@@ -948,4 +948,4 @@ aevo_register_account(referral_code="MYREF")
 | Registration | 1 | Wallet keys required |
 | **Total** | **45** | |
 
-> **Note:** The 45 count includes 2 Analysis tools (funding_analysis, volatility_snapshot) and 2 more (market_regime, basis_analysis), plus the strategy tools that bring the total above the 43 base exchange API tools. The additional tools are composite/analytical wrappers built on top of the base API.
+> **Note:** The 45 total includes 4 Analysis tools and 4 Strategy tools that are composite/analytical wrappers built on top of the base exchange API.
