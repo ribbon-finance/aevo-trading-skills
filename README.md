@@ -1,6 +1,6 @@
 # AEVO Trading Skill
 
-AI trading assistant skill for [AEVO](https://aevo.xyz), a decentralized derivatives exchange. Connects any MCP-compatible client to AEVO's 45 tools for market data, portfolio management, order execution, risk analysis, and options strategies.
+AI trading assistant skill for [AEVO](https://app.aevo.xyz), a decentralized derivatives exchange. Connects any MCP-compatible client to AEVO's 45 tools for market data, portfolio management, order execution, risk analysis, and options strategies.
 
 ## Quick Start
 
@@ -102,7 +102,7 @@ For testing without real funds, use AEVO testnet:
 
 - App: [testnet.aevo.xyz](https://testnet.aevo.xyz)
 - API: `https://api-testnet.aevo.xyz`
-- MCP: `https://api-testnet.aevo.xyz/mcp`
+- MCP: `https://mcp-testnet.aevo.xyz/mcp`
 
 ## Links
 
