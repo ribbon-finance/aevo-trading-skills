@@ -109,3 +109,4 @@ For testing without real funds, use AEVO testnet:
 - [AEVO Exchange](https://aevo.xyz)
 - [AEVO API Docs](https://docs.aevo.xyz)
 - [MCP Server Package](https://pypi.org/project/mcp-aevo-server/)
+- [AEVO Trading Skill](https://clawhub.ai/yichulau/aevo-trading-skill) (Official)
